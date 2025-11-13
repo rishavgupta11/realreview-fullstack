@@ -1,4 +1,3 @@
-=======
 # 🏡 **RealReview – Location-Verified Real Estate Image & Rating Platform**
 
 A full-stack real estate photo review system where users upload property/location images, rate them, and explore verified reviews from real people in the city.
@@ -164,4 +163,3 @@ GOOGLE_API_KEY=YOUR_API_KEY_HERE
 
 # 📄 **License**
 This project is created for **educational and internship evaluation purposes** only.
->>>>>>> 5db9a4a (Add screenshots to README)
