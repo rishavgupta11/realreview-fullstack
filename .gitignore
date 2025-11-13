@@ -1,0 +1,19 @@
+# Backend (Spring Boot)
+target/
+uploads/
+*.log
+*.class
+
+# Frontend (React)
+realreview-frontend/node_modules/
+realreview-frontend/build/
+realreview-frontend/dist/
+
+# OS / IDE files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env

@@ -1,0 +1,51 @@
+{
+  "info": {
+    "name": "RealReview - Image Upload",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Upload Property Image",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "image",
+              "type": "file",
+              "src": "",
+              "description": "Choose image file to upload"
+            },
+            {
+              "key": "location",
+              "value": "Ludhiana",
+              "type": "text",
+              "description": "Location of the property"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/images/upload",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "images",
+            "upload"
+          ]
+        }
+      }
+    }
+  ]
+}

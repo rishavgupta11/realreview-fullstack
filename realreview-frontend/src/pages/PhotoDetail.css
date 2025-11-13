@@ -1,0 +1,124 @@
+/* PhotoDetail.css */
+.photo-detail-page {
+  padding: 20px 0;
+}
+
+.photo-detail-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.photo-main img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.photo-sidebar {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  height: fit-content;
+}
+
+.photo-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.stat {
+  text-align: center;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.stat-label {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.photo-metadata {
+  margin: 20px 0;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.photo-metadata p {
+  margin-bottom: 8px;
+}
+
+.verified-badge {
+  color: #28a745;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.rating-form {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.stars-input {
+  margin-bottom: 16px;
+}
+
+.star-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.star-button {
+  background: none;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.star-button.active {
+  opacity: 1;
+}
+
+.ratings-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.ratings-list {
+  margin-top: 20px;
+}
+
+.rating-item {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.rating-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.rating-comment {
+  color: #666;
+  margin-top: 8px;
+}

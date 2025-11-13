@@ -1,0 +1,117 @@
+/* AdminDashboard.css */
+.admin-dashboard {
+  padding: 20px 0;
+}
+
+.admin-dashboard h1 {
+  margin-bottom: 10px;
+}
+
+.admin-dashboard h2 {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.pending-photos-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.pending-photo-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.photo-details {
+  padding: 24px;
+}
+
+.photo-metadata {
+  margin: 16px 0;
+}
+
+.photo-metadata p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.confidence {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.confidence.high {
+  color: #28a745;
+}
+
+.confidence.low {
+  color: #dc3545;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.approve-button {
+  flex: 1;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+
+.reject-button {
+  flex: 1;
+  padding: 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+}
+
+.no-pending {
+  text-align: center;
+  padding: 60px;
+  background: white;
+  border-radius: 12px;
+  font-size: 18px;
+  color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .photos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-detail-container {
+    grid-template-columns: 1fr;
+  }
+
+  .pending-photo-card {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-menu {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
