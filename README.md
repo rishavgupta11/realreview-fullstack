@@ -95,7 +95,7 @@ frontend/
 Add your screenshots here:
 
 - Login Page  
-- ![Login](screenshotshome.png)
+- ![Login](/screenshotshome.png)
 - Register Page  
 - ![Register](./screenshotsregister.png)
 - Home Feed  
