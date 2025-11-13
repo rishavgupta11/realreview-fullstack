@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 =======
 # 🏡 **RealReview – Location-Verified Real Estate Image & Rating Platform**
 
