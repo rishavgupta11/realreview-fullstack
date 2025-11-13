@@ -5,6 +5,7 @@ uploads/
 *.class
 
 # Frontend (React)
+node_modules/
 realreview-frontend/node_modules/
 realreview-frontend/build/
 realreview-frontend/dist/
