@@ -95,14 +95,14 @@ frontend/
 Add your screenshots here:
 
 - Login Page  
-- ![Login](./screenshots/login.png)
+- ![Login](./screenshotslogin.png)
 - Register Page  
-- ![Register](./screenshots/register.png)
+- ![Register](./screenshotsregister.png)
 - Home Feed  
-- ![Home](./screenshots/home.png)
+- ![Home](./screenshotshome.png)
 
 - Upload Image  
-- ![Upload](./screenshots/upload.png)
+- ![Upload](./screenshotsupload.png)
 - Admin Dashboard  
 
 ---
