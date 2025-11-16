@@ -97,12 +97,12 @@ Add your screenshots here:
 - Login Page  
 - ![Login](/screenshots/screenshotshome.png)
 - Register Page  
-- ![Register](./screenshotsregister.png)
+- ![Register](/screenshots/screenshotsregister.png)
 - Home Feed  
-- ![Home](./screenshotshome.png)
+- ![Home](/screenshots/screenshotshome.png)
 
 - Upload Image  
-- ![Upload](./screenshotsupload.png)
+- ![Upload](/screenshots/screenshotsupload.png)
 - Admin Dashboard  
 
 ---
